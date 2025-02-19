@@ -42,11 +42,11 @@ function App() {
   const jobTypes = [
     'Metal recycling and scrap removal',
     'Demolition debris cleanup',
-    'Industrial scrap collection',
-    'Car and vehicle scrapping',
-    'Copper, aluminum, and brass recycling',
+    // 'Industrial scrap collection',
+    // 'Car and vehicle scrapping',
+    // 'Copper, aluminum, and brass recycling',
     'Electronic waste disposal',
-    'Construction site cleanup',
+    // 'Construction site cleanup',
     'Junk and waste removal services'
   ];
 
@@ -56,7 +56,7 @@ function App() {
         <div className="logo-container">
 
           {/* <img src={metalLogo} alt="J & J Scrapers CML Logo" className="logo" /> */}
-          
+
           <h1>J & J Scrapers CML</h1>
         </div>
         <div className="contact-info">

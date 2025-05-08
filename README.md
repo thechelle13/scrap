@@ -1,8 +1,8 @@
-# J & J Scrapers CML Website
+# Scrapers CML Website
 
 A simple, responsive single-page React website built with Vite for a metal scrap business. This project provides a professional online presence with contact functionality and service information.
 
-![J & J Scrapers CML Website Screenshot](screenshot.png)
+![Scrapers CML Website Screenshot](screenshot.png)
 
 ## 📋 Table of Contents
 

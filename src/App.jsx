@@ -42,11 +42,11 @@ function App() {
   const jobTypes = [
     'Metal recycling and scrap removal',
     'Demolition debris cleanup',
-    // 'Industrial scrap collection',
-    // 'Car and vehicle scrapping',
-    // 'Copper, aluminum, and brass recycling',
+    'Industrial scrap collection',
+    'Car and vehicle scrapping',
+    'Copper, aluminum, and brass recycling',
     'Electronic waste disposal',
-    // 'Construction site cleanup',
+    'Construction site cleanup',
     'Junk and waste removal services'
   ];
 
@@ -57,20 +57,20 @@ function App() {
 
           {/* <img src={metalLogo} alt="J & J Scrapers CML Logo" className="logo" /> */}
 
-          <h1>J & J Scrapers CML</h1>
+          <h1>Scrapers CML</h1>
         </div>
         <div className="contact-info">
           <div className="contact-item">
             <BsGeoAlt className="icon" />
-            <span>111 Debbie LN, Hohenwald, TN 38462</span>
+            <span>123 Your LN, Hometown, TN 37115</span>
           </div>
           <div className="contact-item">
             <BsTelephone className="icon" />
-            <span>(931) 300-6864</span>
+            <span>(931) 300-1234</span>
           </div>
           <div className="contact-item">
             <BsEnvelope className="icon" />
-            <span>contact@jjscrapers.com</span>
+            <span>example@scrapers.com</span>
           </div>
         </div>
       </header>
@@ -79,7 +79,7 @@ function App() {
         <section className="hero-section">
           <div className="hero-content">
             <h2>Professional Metal Scrapping Services</h2>
-            <p>We provide reliable and efficient metal scrapping solutions for residential and commercial clients throughout Hohenwald and surrounding areas.</p>
+            <p>We provide reliable and efficient metal scrapping solutions for residential and commercial clients throughout Middle Tennessee areas.</p>
             <button className="cta-button" onClick={() => document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })}>
               Request a Quote
             </button>
@@ -162,15 +162,15 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>J & J Scrapers CML</h3>
-            <p>Your trusted partner for metal recycling and scrapping services in Hohenwald, TN.</p>
+            <h3>Scrapers CML</h3>
+            <p>Your trusted partner for metal recycling and scrapping services in Hometown, TN.</p>
           </div>
           <div className="footer-section">
             <h3>Contact</h3>
-            <p>111 Debbie LN</p>
-            <p>Hohenwald, TN 38462</p>
-            <p>(931) 300-6864</p>
-            <p>contact@jjscrapers.com</p>
+            <p>123 Your LN</p>
+            <p>Hometown, TN 38462</p>
+            <p>(931) 300-1234</p>
+            <p>example@scrapers.com</p>
           </div>
           <div className="footer-section">
             <h3>Hours</h3>
@@ -180,7 +180,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <p>&copy; {new Date().getFullYear()} J & J Scrapers CML. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()}Scrapers CML. All rights reserved.</p>
         </div>
       </footer>
     </div>

@@ -55,7 +55,7 @@ function App() {
       <header className="header">
         <div className="logo-container">
 
-          {/* <img src={metalLogo} alt="J & J Scrapers CML Logo" className="logo" /> */}
+          {/* <img src={metalLogo} alt="Scrapers CML Logo" className="logo" /> */}
 
           <h1>Scrapers CML</h1>
         </div>
@@ -180,7 +180,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <p>&copy; {new Date().getFullYear()}Scrapers CML. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Scrapers CML. All rights reserved.</p>
         </div>
       </footer>
     </div>
